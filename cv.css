@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.color {
+  display: flex;
+  height: 500px;
+  margin: 0px 0px 0px 100px;
+  opacity: 0.22;
+  background-color: #D8D8D8;
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.navbar {
+  margin: 40px 100px 40px 0px;
+}
+
+a {
+  font-family: fantasy;
+  padding: 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+a:active {
+  text-decoration: none;
+  color: blue;
+}

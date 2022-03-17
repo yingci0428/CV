@@ -5,17 +5,11 @@
 
 .color {
   display: flex;
-  height: 500px;
-  margin: 0px 0px 0px 100px;
-  opacity: 0.22;
-  background-color: #D8D8D8;
-  z-index: -1;
-}
-
-.header {
-  display: flex;
-  flex-direction: row-reverse;
   justify-content: flex-end;
+  height: 700px;
+  margin: 0px 0px 0px 250px;
+  background-color: rgb(246, 246, 246);
+  z-index: -1;
 }
 
 .navbar {

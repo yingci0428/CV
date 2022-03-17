@@ -3,31 +3,58 @@
   padding: 0;
 }
 
-.color {
+.color_1 {
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
-  height: 700px;
-  margin: 0px 0px 0px 250px;
-  background-color: rgb(246, 246, 246);
-  z-index: -1;
 }
 
-div.navBar {
+.color_2 {
+  width: 1100px;
+  height: 700px;
+  background-color: rgb(246, 246, 246);
+
+}
+
+.myName {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
-nav.navBar {
-  margin: 20px auto;
+h1 {
+  font-family: fantasy;
+  font-size: 100px;
+}
+
+.download {
   display: flex;
 
+}
+
+.cv {
+  font-size: 24px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(251, 232, 232);
+  height: 60px;
+  border: none;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
 }
 
 a {
   font-family: fantasy;
-  padding: 30px;
   font-size: 16px;
-  text-decoration: none;
+  margin: 30px;
+  /* text-decoration: none; */
 }
 
 a:link {
@@ -50,20 +77,19 @@ a:active {
   color: blue;
 }
 
+.navBar_photo {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.photo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 .myPhoto {
   width: 600px;
   height: 700px;
-
-}
-
-h1 {
-  font-family: fantasy;
-  font-size: 100px;
-}
-
-.myName {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
 }

@@ -12,13 +12,20 @@
   z-index: -1;
 }
 
-.navbar {
-  margin: 40px 100px 40px 0px;
+div.navBar {
+  display: flex;
+  flex-direction: column;
+}
+
+nav.navBar {
+  margin: 20px auto;
+  display: flex;
+
 }
 
 a {
   font-family: fantasy;
-  padding: 20px;
+  padding: 30px;
   font-size: 16px;
   text-decoration: none;
 }
@@ -41,4 +48,22 @@ a:hover {
 a:active {
   text-decoration: none;
   color: blue;
+}
+
+.myPhoto {
+  width: 600px;
+  height: 700px;
+
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 100px;
+}
+
+.myName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }

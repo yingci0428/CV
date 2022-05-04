@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.color_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.color_2 {
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+
+}
+
+.myName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  /* font-family: fantasy; */
+  font-size: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+
+.download {
+  display: flex;
+
+}
+
+.cv {
+  font-size: 24px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(251, 232, 232);
+  height: 60px;
+  border: none;
+}
+
+.navBar {
+  margin-top: 30px;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+a {
+  /* font-family: fantasy; */
+  font-size: 16px;
+  margin: 20px;
+  /* text-decoration: none; */
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+a:active {
+  text-decoration: none;
+  color: blue;
+}
+
+.navBar_photo {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.photo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.myPhoto {
+  width: 100%;
+  height: 700px;
+}
+
+@media (max-width: 1200px) {
+  .myPhoto {
+    width: 100%;
+    height: 100%;
+  }
+
+  .navBar_photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+
+  h1 {
+    font-size: 90px;
+  }
+
+  .navBar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+}
+
+@media (max-width: 992px) {
+  .myPhoto {
+    width: 100%;
+    height: 100%;
+  }
+
+  .navBar_photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+
+  h1 {
+    font-size: 90px;
+  }
+
+  .navBar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  .navBar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/* phones */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  a {
+    margin: 15px;
+  }
+
+  .navBar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .myName {
+    margin-top: 20px;
+  }
+
+  .cv {
+    font-size: 20px;
+    margin: 10px auto;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  a {
+    margin: 8px;
+    font-size: 14px;
+  }
+
+  button {
+    height: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  button {
+    height: 45px;
+  }
+
+  .cv {
+    font-size: 18px;
+  }
+
+  a {
+    margin: 8px;
+    font-size: 14px;
+  }
+}

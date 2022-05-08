@@ -101,8 +101,12 @@ a:active {
   color: rgb(153, 153, 153);
 }
 
-.PROJECT {
-  margin: 100px;
+.about{
+  color: rgb(153, 153, 153);
+}
+
+.PROJECT + .About {
+  margin: 40px;
 }
 
 .pj_img {
@@ -115,13 +119,24 @@ h2 {
 }
 
 p {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   color: rgb(153, 153, 153);
   font-size: 18px;
   margin-top: 20px;
   width: 400px;
   overflow: hidden;
   text-overflow: ellipsis; 
+}
+
+.content{
+  margin: 10px;
+}
+
+.content_me{
+  width: 1000px;
+  margin: 0px 20px;
+  padding: 0px 20px;
+  font-size: 22px;
 }
 
 .pj_1 {
@@ -170,6 +185,38 @@ p {
   margin-left: 50px;
 }
 
+.about_contact{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.bg_about{
+  margin: 20px 0px 20px 40px; 
+}
+
+.bg_contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact{
+  background-color: rgb(251, 232, 232);
+    width: 350px;
+    margin: 0;
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+
+.contact_1{
+  background-color: rgb(251, 232, 232);
+  width: 350px;
+  margin: 0;
+  color: black;
+  font-size: 26px;
+}
+
 @media (max-width: 1200px) {
   .myPhoto {
     width: 600px;
@@ -196,10 +243,10 @@ p {
 
   }
 
-  .pj_1{
+  /* .pj_1{
     display: flex;
     flex-direction: column-reverse
-  }
+  } */
 
   .pj_img{
     width: 50%;
@@ -209,9 +256,10 @@ p {
     font-size: 32px;
   }
 
-  p{
+  /* p{
     display: none;
-  }
+  } */
+
 }
 
 @media (max-width: 992px) {
@@ -235,6 +283,11 @@ p {
     margin-bottom: 10px;
 
   }
+
+  .pj{
+    font-size: 70px;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -251,6 +304,12 @@ p {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  .pj{
+    font-size: 60px;
+  }
+
+
 }
 
 /* phones */
@@ -281,6 +340,14 @@ p {
     margin: 10px auto;
     padding: 10px;
   }
+
+  .pj{
+    font-size: 50px;
+  }
+
+  .PROJECT {
+    margin: 20px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -296,6 +363,11 @@ p {
   button {
     height: 50px;
   }
+
+  .pj{
+    font-size: 40px;
+  }
+  
 }
 
 @media (max-width: 375px) {
@@ -314,5 +386,9 @@ p {
   a {
     margin: 8px;
     font-size: 14px;
+  }
+
+  .pj{
+    font-size: 30px;
   }
 }

@@ -110,8 +110,8 @@ a:active {
 }
 
 .pj_img {
-  width: 662px;
-  height: 100%;
+  width: 50%;
+  
 }
 
 h2 {
@@ -188,17 +188,23 @@ p {
 .about_contact{
   display: flex;
   flex-direction: row;
-  
+  margin: 20px 0px;
 }
 
 .bg_about{
-  margin: 20px 0px 20px 40px; 
+  margin: 20px 0px 20px 40px;
+  background-image: url(./img/about.png);
+  background-size: 100%;
+  width: 100%;
 }
 
 .bg_contact{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
+  /* position: relative;
+  right: 100px;
+  top: 150px; */
 }
 
 .contact{
@@ -216,6 +222,19 @@ p {
   color: black;
   font-size: 26px;
 }
+
+.footer{
+  height: 80px;
+  margin-top: 40px;
+  background-color: rgb(246, 246, 246);
+}
+
+.footer-text{
+    float: left;
+    padding-left: 50px;
+    line-height: 50px;
+
+  }
 
 @media (max-width: 1200px) {
   .myPhoto {
@@ -256,9 +275,9 @@ p {
     font-size: 32px;
   }
 
-  /* p{
+  p{
     display: none;
-  } */
+  }
 
 }
 

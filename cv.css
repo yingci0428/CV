@@ -185,33 +185,23 @@ p {
   margin-left: 50px;
 }
 
-.about_contact{
-  display: flex;
-  flex-direction: row;
-  margin: 20px 0px;
-}
-
 .bg_about{
-  margin: 20px 0px 20px 40px;
-  background-image: url(./img/about.png);
-  background-size: 100%;
-  width: 100%;
+  background-image:url(./img/about.png) ;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 20px 40px;
+  padding: 20px;
 }
 
-.bg_contact{
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
-  /* position: relative;
-  right: 100px;
-  top: 150px; */
-}
+
+
 
 .contact{
   background-color: rgb(251, 232, 232);
     width: 350px;
     margin: 0;
-    font-size: 26px;
+    font-size: 22px;
     letter-spacing: 5px;
 }
 
@@ -220,7 +210,7 @@ p {
   width: 350px;
   margin: 0;
   color: black;
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .footer{
@@ -252,7 +242,11 @@ p {
     font-size: 90px;
   }
 
-  .pj{
+  .pj {
+    font-size: 80px;
+  }
+  
+  .about{
     font-size: 80px;
   }
 
@@ -275,10 +269,22 @@ p {
     font-size: 32px;
   }
 
-  /* p{
+  p.PROJECT{
     display: none;
-  } */
+  }
+  .content_me{
+    width: 900px;
+  }
 
+  .contact{
+    width: 300px;
+    font-size: 22px;
+  }
+
+  .contact_1{
+    width: 300px;
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -307,6 +313,25 @@ p {
     font-size: 70px;
   }
 
+  .about{
+    font-size: 70px;
+  }
+
+  .content_me{
+    width: 684px;
+    font-size: 18px;
+  }
+
+  .contact{
+    width: 220px;
+    font-size: 18px;
+  }
+
+  .contact_1{
+    width: 220px;
+    font-size: 18px;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -328,6 +353,13 @@ p {
     font-size: 60px;
   }
 
+  .about{
+    font-size: 60px;
+  }
+
+  .content_me{
+    width: 492px;
+  }
 
 }
 
@@ -364,9 +396,23 @@ p {
     font-size: 50px;
   }
 
+  .about{
+    font-size: 50px;
+  }
+
   .PROJECT {
     margin: 20px;
   }
+
+  .content_me{
+    width: 410px;
+  }
+
+ 
+
+
+
+
 }
 
 @media (max-width: 480px) {
@@ -384,6 +430,10 @@ p {
   }
 
   .pj{
+    font-size: 40px;
+  }
+
+  .about{
     font-size: 40px;
   }
   
@@ -408,6 +458,10 @@ p {
   }
 
   .pj{
+    font-size: 30px;
+  }
+
+  .about{
     font-size: 30px;
   }
 }
